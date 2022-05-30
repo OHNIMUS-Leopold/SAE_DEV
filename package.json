@@ -9,6 +9,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.7",
     "vue": "^3.2.31",
+    "vue-carousel": "^0.18.0",
     "vue-router": "^4.0.14"
   },
   "devDependencies": {
