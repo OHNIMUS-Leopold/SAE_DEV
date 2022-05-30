@@ -12,7 +12,7 @@
     </form>
     <div class="flex justify-center pb-12">
       <p class="text-white font-Poppins font-normal text-[15px] leading-[26px] tracking-normal">Pas de compte ? Commandez votre billet et inscrivez-vous</p>
-      <RouterLink to="/inscription"><p class="text-ocean-blue font-Poppins font-normal text-[15px] leading-[26px] tracking-normal">&#160ici !</p></RouterLink>
+      <RouterLink to="/inscription"><p class="text-ocean-blue font-Poppins font-normal text-[15px] leading-[26px] tracking-normal"> ici !</p></RouterLink>
     </div>
   </div>
 </template>
