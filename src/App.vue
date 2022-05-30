@@ -44,7 +44,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <section class="flex justify-center space-x-1 pb-5">
         <span>
           <nav>
-            <RouterLink to="/contact" class="text-white font-Poppins font-normal text-[15px] leading-[26px] tracking-normal uppercase">Contactez-nous</RouterLink>
+            <RouterLink to="/contact" class="text-white font-Poppins font-normal text-[15px] leading-[26px] tracking-normal uppercase hover:text-black">Contactez-nous</RouterLink>
           </nav>
         </span>
         <span>
@@ -52,7 +52,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </span>
         <span>
           <nav>
-            <RouterLink to="/mentionslegales" class="text-white font-Poppins font-normal text-[15px] leading-[26px] tracking-normal uppercase">Mentions légales</RouterLink>
+            <RouterLink to="/mentionslegales" class="text-white font-Poppins font-normal text-[15px] leading-[26px] tracking-normal uppercase hover:text-black">Mentions légales</RouterLink>
           </nav>
         </span>
       </section>
