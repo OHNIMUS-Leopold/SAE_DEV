@@ -4,23 +4,23 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div class="wrapper">
+    <div class="bg-gradient-to-r from-d1 via-d2 to-d3">
       
-      <nav>
-        <RouterLink to="/">Accueil</RouterLink>
-        <RouterLink to="/programmation">Programmation</RouterLink>
-        <RouterLink to="/lesartistes">Les Artistes</RouterLink>
-        <RouterLink to="/festival">Festival</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
+      <nav class="flex justify-between">
+        <RouterLink to="/"><LogoNav class="ml-[33px]"/></RouterLink>
+        <!--<RouterLink to="/contact">Contact</RouterLink>
         <RouterLink to="/concert">Concert</RouterLink>
         <RouterLink to="/pageartiste">Page Artiste</RouterLink>
-        <RouterLink to="/mentionslegales">Mentions Légales</RouterLink>
-        <RouterLink to="/connexion">Connexion</RouterLink>
-        <RouterLink to="/profil">Profil</RouterLink>
+        <RouterLink to="/mentionslegales">Mentions Légales</RouterLink>-->
+        <RouterLink to="/connexion"><img src="./components/icons/user.svg" alt="Connexion" class="my-[23px]"></RouterLink>
+        <RouterLink to="/festival" class="text-white font-Poppins font-bold text-[21px] leading-[21px] tracking-normal uppercase my-[30px] hover:text-black">Le Festival</RouterLink>
+        <RouterLink to="/lesartistes" class="text-white font-Poppins font-bold text-[21px] leading-[21px] tracking-normal uppercase my-[30px] hover:text-black">Artistes</RouterLink>
+        <RouterLink to="/programmation" class="text-white font-Poppins font-bold text-[21px] leading-[21px] tracking-normal uppercase my-[30px] hover:text-black">Programmation</RouterLink>
+        <!--<RouterLink to="/profil">Profil</RouterLink>
         <RouterLink to="/informations">Informations</RouterLink>
         <RouterLink to="/pagerediffusions">Page Rediffusions</RouterLink>
-        <RouterLink to="/rediffusion">Rediffusion</RouterLink>
-        <RouterLink to="/inscription">Inscription</RouterLink>
+        <RouterLink to="/rediffusion">Rediffusion</RouterLink>-->
+        <RouterLink to="/inscription"><BoutonBold class="my-[18px] mr-[49px]">Commandez votre billet</BoutonBold></RouterLink>
       </nav>
     </div>
   </header>
@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="bg-black py-5">
       <h1 class="text-ocean-blue text-center font-Poppins font-bold text-5xl leading-[3rem] tracking-normal uppercase">Commandez dès maintenant votre billet !</h1>
       <div class="flex justify-center">
-        <BoutonFin class="mt-5">Commander</BoutonFin>
+        <RouterLink to="/inscription"><BoutonFin class="mt-5">Commander</BoutonFin></RouterLink>
       </div>
     </div>
     <div class="bg-gradient-to-r from-d1 via-d2 to-d3 ">
@@ -67,9 +67,11 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <script>
 import BoutonFin from "./components/BoutonFin.vue"
+import BoutonBold from "./components/BoutonBold.vue"
+import LogoNav from "./components/LogoNav.vue"
 import { computed } from '@vue/runtime-core';
 export default {
  name: "App",
- components: { BoutonFin },
+ components: { BoutonFin, BoutonBold, LogoNav },
 };
 </script>
