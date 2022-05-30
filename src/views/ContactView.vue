@@ -39,10 +39,19 @@
       <img src="../assets/img/contact.png" alt="carte">
     </div>
   </div>
-  <div class="bg-gradient-to-r from-d1 via-d2 to-d3 rounded-[20px] mb-24">
-aaaaaaaaaaaaaaaa
+
+  <div class="bg-gradient-to-r from-d1 via-d2 to-d3 rounded-[20px] mb-24 mx-[92px]">
+    <h1 style="filter:drop-shadow(0px 10px 10px gray)" class="text-white mb-11 text-center text-sh pt-12 font-Poppins font-bold text-5xl leading-[3rem] tracking-normal uppercase">
+      Contactez-nous
+    </h1>
+    <form class="flex flex-col font-Poppins">
+      <input style="filter:drop-shadow(0px 10px 10px gray)" class="outline-none focus:ring focus:ring-deep-blue mb-[22px] mx-[74px] h-14 rounded-[10px] placeholder:text-black pl-6" type="text" id="fname" name="firstname" placeholder="Votre nom">
+
+      <input style="filter:drop-shadow(0px 10px 10px gray)" class="outline-none focus:ring focus:ring-deep-blue mb-[22px] mx-[74px] h-14 rounded-[10px] placeholder:text-black pl-6" id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+      <textarea style="filter:drop-shadow(0px 10px 10px gray)" class="outline-none focus:ring focus:ring-deep-blue mx-[74px] h-[300px] rounded-[10px] placeholder:text-black pt-4 pl-6 focus:border-deep-blue" id="subject" name="subject" type="message" placeholder="Votre message"></textarea>
+
+      <input type="submit" value="ENVOYER" style="filter:drop-shadow(0px 10px 10px gray)" class="text-white uppercase py-2 rounded-[10px] mx-[600px] my-11 font-Poppins font-bold text-[15px] leading-[26px] tracking-normal bg-ocean-blue hover:text-black">
+    </form>
   </div>
 </template>
-
-<style>
-</style>
