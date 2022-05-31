@@ -26,37 +26,37 @@
   <div class="slider mb-24">
     <div class="slide-track">
       <div class="slide">
-        <img src="../assets/img/apropos/image 12.jpg" alt="image 1">
+        <img src="../assets/img/apropos/image12.jpg" alt="image 1">
       </div>
       <div class="slide">
-        <img src="../assets/img/apropos/image 7.jpg" alt="image 2">
+        <img src="../assets/img/apropos/image7.jpg" alt="image 2">
       </div>
       <div class="slide">
-        <img src="../assets/img/apropos/image 9.jpg" alt="image 3">
+        <img src="../assets/img/apropos/image9.jpg" alt="image 3">
       </div>
       <div class="slide">
-        <img src="../assets/img/apropos/image 10.jpg" alt="image 4">
+        <img src="../assets/img/apropos/image10.jpg" alt="image 4">
       </div>
       <div class="slide">
-        <img src="../assets/img/apropos/image 6.jpg" alt="image 5">
+        <img src="../assets/img/apropos/image6.jpg" alt="image 5">
       </div>
 
     <!--SLIDES DOUBLEES-->
 
       <div class="slide">
-        <img src="../assets/img/apropos/image 12.jpg" alt="image 1">
+        <img src="../assets/img/apropos/image12.jpg" alt="image 1">
       </div>
       <div class="slide">
-        <img src="../assets/img/apropos/image 7.jpg" alt="image 2">
+        <img src="../assets/img/apropos/image7.jpg" alt="image 2">
       </div>
       <div class="slide">
-        <img src="../assets/img/apropos/image 9.jpg" alt="image 3">
+        <img src="../assets/img/apropos/image9.jpg" alt="image 3">
       </div>
       <div class="slide">
-        <img src="../assets/img/apropos/image 10.jpg" alt="image 4">
+        <img src="../assets/img/apropos/image10.jpg" alt="image 4">
       </div>
       <div class="slide">
-        <img src="../assets/img/apropos/image 6.jpg" alt="image 5">
+        <img src="../assets/img/apropos/image6.jpg" alt="image 5">
       </div>
     </div>
   </div>
