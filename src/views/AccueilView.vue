@@ -64,7 +64,7 @@
 import BoutonBold from "../components/BoutonBold.vue"
 import { computed } from '@vue/runtime-core';
 export default {
- name: "App",
+ name: "Accueil",
  components: {  BoutonBold },
 };
 </script>
