@@ -35,7 +35,7 @@
       </RouterLink>
     </div>
     <div class="col-span-5">
-      <CompProfil></CompProfil>
+      <CompProfil ImgProfil="/src/assets/img/userprofile.png"/>
     </div>
   </div>
 </template>
