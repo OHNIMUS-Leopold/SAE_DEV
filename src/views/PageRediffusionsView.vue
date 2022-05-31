@@ -36,14 +36,14 @@
     </div>
     <div class="col-span-5">
       <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,1fr))] p-2">
-        <card :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
-        <card :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
-        <card :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
-        <card :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
-        <card :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
-        <card :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
-        <card :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
-        <card :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
+        <card artiste="Jennie" :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
+        <card artiste="Jennie" :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
+        <card artiste="Jennie" :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
+        <card artiste="Jennie" :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
+        <card artiste="Jennie" :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
+        <card artiste="Jennie" :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
+        <card artiste="Jennie" :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
+        <card artiste="Jennie" :nbVues="68415" :nbLikes="65" :image="imgJennie"/>
       </div>
     </div>
 </div>
