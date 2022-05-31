@@ -34,5 +34,16 @@
         </div>
       </RouterLink>
     </div>
+    <div class="col-span-5">
+      <CompInfos />
+    </div>
   </div>
 </template>
+
+<script>
+import CompInfos from "../components/CompInfos.vue"
+export default {
+ 
+ components: { CompInfos },
+};
+</script>
