@@ -6,9 +6,9 @@
         :src="image" alt="image du groupe">
     </figure>
     <figcaption class="relative flex flex-col py-4 px-5 border-2 border-t-0 rounded-b-lg border-black">
-        <h4 class="font-Poppins font-normal text-[15px] leading-[26px] tracking-normal" >
+        <p class="font-Poppins font-normal text-[15px] leading-[26px] tracking-normal" >
             {{ artiste }}
-        </h4>
+        </p>
         <div class="flex flex-row justify-between font-Poppins">
             <div class="w-max">
                 <vues class="inline-block h-7 w-7 mr-1"/>
