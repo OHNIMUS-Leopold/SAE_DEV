@@ -3,6 +3,9 @@
     <h1 class="text-ocean-blue text-center mt-[72px] mb-[64px] font-Poppins font-bold text-5xl leading-[3rem] tracking-normal uppercase">
       Les artistes qui seront présents..
     </h1>
+    <div class="text-center">
+      <input style="filter:drop-shadow(0px 10px 10px gray)" class="outline-none focus:ring focus:ring-deep-blue mb-[22px] mx-[74px] h-14 rounded-[10px] placeholder:text-black pl-6" id="filtre" type="filtre" name="filtrage" placeholder="Filtrer">
+    </div>
     <div class="p-2">
       <h2 class="text-pink font-Poppins font-bold text-[21px] leading-[21px] tracking-normal pb-3">Des groupes féminins</h2>
       <div class="pb-10 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,300px))]">
@@ -40,6 +43,7 @@ import imgStrayKids from "../assets/img/grp/m/straykidsok.jpg?url"
 import imgBts from "../assets/img/grp/m/btsok.jpg?url"
 import imgMati from "../assets/img/grp/dj/matiok.jpg?url"
 import imgSura from "../assets/img/grp/dj/suraok.jpg?url"
+import { SearchIcon } from "@heroicons/vue/outline"
 
 export default { 
   data: function() {
@@ -47,6 +51,6 @@ return {
 imgJennie, imgLoona, imgTwice, imgBlackpink, imgStrayKids, imgBts, imgMati, imgSura,
 }
   },
- components: { card },
+ components: { card, SearchIcon },
 };
 </script>
