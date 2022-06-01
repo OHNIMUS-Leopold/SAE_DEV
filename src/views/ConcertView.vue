@@ -39,9 +39,56 @@
       </div>
     </div>
   </div>
-  <div class="bg-black rounded-[20px]">
+  <div class="bg-black rounded-[20px] py-7 px-12 mt-[72px] mb-6 w-max m-auto">
+    <h1 class="text-ocean-blue mb-8 text-center font-Poppins font-bold text-5xl leading-[3rem] tracking-normal uppercase">Soyez au rendez-vous</h1>
+    <div class="grid grid-cols-2 space-x-20">
+      <div>
+        <div class="flex mb-3">
+          <img src="../components/icons/png/calendar-white.png" alt="date" class="h-9 w-9 mr-[18px]">
+          <h2 class="text-white font-Poppins font-bold text-[21px] leading-[21px] tracking-normal my-auto">Dimanche 21 août</h2>
+        </div>
+        <div class="flex mb-3">
+          <img src="../components/icons/png/alarm-clock-white.png" alt="hour fansign" class="h-9 w-9 mr-[18px]">
+          <h2 class="text-white font-Poppins font-bold text-[21px] leading-[21px] tracking-normal my-auto">Fansign de 15h30 à 16h30 (KST)</h2>
+        </div>
+        <div class="flex">
+          <img src="../components/icons/png/alarm-clock-white.png" alt="hour concert" class="h-9 w-9 mr-[18px]">
+          <h2 class="text-white font-Poppins font-bold text-[21px] leading-[21px] tracking-normal my-auto">Concert de 16h30 à 19h30 (KST)</h2>
+        </div>
+      </div>
+      <div class="">
+        <RouterLink to="/connexion">
+          <div class="flex mb-3">
+            <img src="../assets/img/logo/ytb-rouge.png" alt="hour concert" class="h-[68px] w-[68px] mr-[18px]">
+            <h2 class="text-white font-Poppins font-bold text-[21px] leading-[21px] tracking-normal my-auto">Voir les rediffusions</h2>
+          </div>
+        </RouterLink>
+        <RouterLink to="/festival">
+          <div class="flex">
+            <img src="../assets/img/logo/rec-rouge.png" alt="hour concert" class="h-[35px] w-[63px] mr-[18px]">
+            <h2 class="text-white font-Poppins font-bold text-[21px] leading-[21px] tracking-normal my-auto">  Accéder au Live</h2>
+          </div>
+        </RouterLink>
+      </div>
+    </div>
+  </div>
+  <div class="text-center mb-24">
+    <RouterLink to="/pageartiste">
+      <BoutonBold>Voir l'artiste</BoutonBold>
+    </RouterLink>
   </div>
 </template>
+
+
+
+<script>
+import BoutonBold from "../components/BoutonBold.vue"
+import { computed } from '@vue/runtime-core';
+export default {
+ name: "App",
+ components: { BoutonBold },
+};
+</script>
 
 
 <style>

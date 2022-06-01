@@ -48,7 +48,7 @@
             <img src="../assets/img/blackpink/jisoo.jpg" alt="jisoo">
         </div>
     </div>
-        <div class="grid grid-cols-2 mt-44">
+      <div class="grid grid-cols-2 mt-44">
         <div>
             <img src="../assets/img/blackpink/jennie.jpg" alt="jennie">
         </div>
@@ -59,6 +59,11 @@
                 <a href="https://k-pop.fandom.com/fr/wiki/Jennie" class="text-pink">Voir plus..</a>
             </p>
         </div>
+      </div>
+    <div class="mt-11 text-center">
+      <RouterLink to="/concert">
+        <BoutonBold>Voir le concert</BoutonBold>
+      </RouterLink>
     </div>
     <div class="slider2 mt-[138px]">
     <div class="slide-track2">
@@ -103,6 +108,19 @@
         <a href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A"><img src="../components/icons/png/youtube-blanc.png" alt="youtube"></a>
     </div>
 </template>
+
+
+
+<script>
+import BoutonBold from "../components/BoutonBold.vue"
+import { computed } from '@vue/runtime-core';
+export default {
+ name: "App",
+ components: { BoutonBold },
+};
+</script>
+
+
 
 <style>
 
