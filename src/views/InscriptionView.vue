@@ -125,7 +125,7 @@
 export default {
     data: function() {
         return {
-            formule:"formule 1",
+            formule:"",
         }
     }
 }
