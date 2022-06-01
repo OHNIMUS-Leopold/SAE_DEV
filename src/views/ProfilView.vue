@@ -35,15 +35,22 @@
       </RouterLink>
     </div>
     <div class="col-span-5">
-      <CompProfil ImgProfil="/src/assets/img/userprofile.png"/>
+      <CompProfil :ImgProfil="imgRuser"/>
     </div>
   </div>
 </template>
 
 <script>
 import CompProfil from "../components/CompProfil.vue"
+import imgRuser from "../assets/img/userprofile.png?url"
+
+
 export default {
- 
+  data: function() {
+return {
+imgRuser,
+}
+  },
  components: { CompProfil },
 };
 </script>
