@@ -3,7 +3,7 @@
     <h1 style="filter:drop-shadow(0px 10px 10px gray)" class="text-white mb-11 text-center text-sh pt-12 font-Poppins font-bold text-5xl leading-[3rem] tracking-normal uppercase">
       connectez-vous
     </h1>
-    <form class="flex flex-col font-Poppins text-black">
+    <form class="flex flex-col font-Poppins text-black font-normal text-[15px] leading-[26px] tracking-normal">
       <input style="filter:drop-shadow(0px 10px 10px gray)" class="outline-none focus:ring focus:ring-deep-blue mb-[22px] mx-[74px] h-14 rounded-[10px] placeholder:text-black pl-6" type="username" id="uname" name="username" placeholder="Nom d'utilisateur">
 
       <input style="filter:drop-shadow(0px 10px 10px gray)" class="outline-none focus:ring focus:ring-deep-blue mb-11 mx-[74px] h-14 rounded-[10px] placeholder:text-black pl-6" id="password" type="password" name="password" placeholder="Mot de passe">
