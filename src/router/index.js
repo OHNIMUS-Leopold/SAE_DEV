@@ -13,6 +13,7 @@ import InformationsView from '../views/InformationsView.vue'
 import PageRediffusionsView from '../views/PageRediffusionsView.vue'
 import RediffusionView from '../views/RediffusionView.vue'
 import InscriptionView from '../views/InscriptionView.vue'
+import StyleGuideView from '../views/StyleGuideView.vue'
 import Page404View from '../views/Page404View.vue'
 
 
@@ -32,7 +33,8 @@ const router = createRouter({
     { path: '/informations',             name: 'InformationsView',                  component: InformationsView     },
     { path: '/pagerediffusions',         name: 'PageRediffusionsView',              component: PageRediffusionsView },
     { path: '/rediffusion',              name: 'RediffusionView',                   component: RediffusionView      },
-    { path: '/Inscription',              name: 'InscriptionView',                   component: InscriptionView      },
+    { path: '/inscription',              name: 'InscriptionView',                   component: InscriptionView      },
+    { path: '/style-guide',              name: 'StyleGuideView',                    component: StyleGuideView       },
     { path: '/:pathMatch(.*)*',          name: 'Page404View',                       component: Page404View          },
   ]
 })
