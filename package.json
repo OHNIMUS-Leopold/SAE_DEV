@@ -9,6 +9,7 @@
   "dependencies": {
     "@heroicons/vue": "^1.0.6",
     "autoprefixer": "^10.4.7",
+    "heroicons": "^1.0.6",
     "vue": "^3.2.31",
     "vue-carousel": "^0.18.0",
     "vue-router": "^4.0.14"
