@@ -11,11 +11,17 @@
       <input v-model='filter' style="filter:drop-shadow(0px 10px 10px gray)" class="outline-none focus:ring focus:ring-deep-blue mb-[44px] mx-[74px] h-14 rounded-[10px] placeholder:text-black pl-6" id="filtre" type="search" name="filtrage" placeholder="Filtrer">
     </div>
 <div class="grid grid-cols-4">
+  
   <div class="p-1 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))]" v-for='artiste in filterByName' :key='artiste.id'>
     <figcaption class="relative  py-4 px-5 border-2 rounded-lg border-black" >
       <div class="flex flex-row justify-between items-center">
         <input class="font-Poppins font-bold text-base leading-[26px] tracking-normal" v-model="artiste.nom" required>
-        <div class="space-x-1">
+        <div class="space-x-1 flex">
+          <RouterLink to="/pageartiste" class="contents">
+            <div class="w-8 ml-[-32px]">
+              <EyeIcon />
+            </div>
+          </RouterLink>
           <button class="w-8" type="button" title="Modification" @click.prevent="updateArtiste(artiste)">
             <SaveIcon />
           </button>
@@ -26,6 +32,7 @@
       </div>
     </figcaption>
   </div>
+  
 </div>
     </div>
 </template>
@@ -40,7 +47,7 @@ import imgStrayKids from "../assets/img/grp/m/straykidsok.jpg?url"
 import imgBts from "../assets/img/grp/m/btsok.jpg?url"
 import imgMati from "../assets/img/grp/dj/matiok.jpg?url"
 import imgSura from "../assets/img/grp/dj/suraok.jpg?url"
-import { SearchIcon, SaveIcon, TrashIcon, DocumentAddIcon } from "@heroicons/vue/outline"
+import { SearchIcon, SaveIcon, TrashIcon, DocumentAddIcon, EyeIcon } from "@heroicons/vue/outline"
 
 
 
@@ -56,7 +63,7 @@ import {
 
     export default {
       components:{
-        SaveIcon, TrashIcon, DocumentAddIcon
+        SaveIcon, TrashIcon, DocumentAddIcon, EyeIcon
         },
       
 
