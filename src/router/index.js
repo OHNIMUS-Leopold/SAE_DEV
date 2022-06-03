@@ -9,6 +9,7 @@ import PageArtisteView from '../views/PageArtisteView.vue'
 import MentionsLegalesView from '../views/MentionsLegalesView.vue'
 import ConnexionView from '../views/ConnexionView.vue'
 import ProfilView from '../views/ProfilView.vue'
+import UpdateProfilView from '../views/UpdateProfilView.vue'
 import InformationsView from '../views/InformationsView.vue'
 import PageRediffusionsView from '../views/PageRediffusionsView.vue'
 import RediffusionView from '../views/RediffusionView.vue'
@@ -30,6 +31,7 @@ const router = createRouter({
     { path: '/mentionslegales',          name: 'MentionsLegalesView',               component: MentionsLegalesView  },
     { path: '/connexion',                name: 'ConnexionView',                     component: ConnexionView        },
     { path: '/profil',                   name: 'ProfilView',                        component: ProfilView           },
+    { path: '/updateprofil',             name: 'UpdateProfilView',                  component: UpdateProfilView     },
     { path: '/informations',             name: 'InformationsView',                  component: InformationsView     },
     { path: '/pagerediffusions',         name: 'PageRediffusionsView',              component: PageRediffusionsView },
     { path: '/rediffusion',              name: 'RediffusionView',                   component: RediffusionView      },
